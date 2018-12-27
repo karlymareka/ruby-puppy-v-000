@@ -15,7 +15,8 @@ class Dog
   
   def self.all
     @@all.each do |doggie|
-      puts doggie.scan(/"[^"]*"/)
+      #puts doggie.scan(/"[^"]*"/)
+      puts doggie.name 
     end  
   end
   
