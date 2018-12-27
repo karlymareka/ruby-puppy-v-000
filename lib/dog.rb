@@ -14,9 +14,6 @@ class Dog
   end 
   
   def self.all
-    array.each do |item|
-  puts "The current array item is: #{item}"
-end
     @@all.each do |doggie|
       puts doggie.scan(/"[^"]*"/)
     end  
