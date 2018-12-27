@@ -14,7 +14,8 @@ class Dog
   end 
   
   def self.all
-    puts @@all.scan(/"([^"]*)"/)  
+    name_only = @@all.scan(/"([^"]*)"/)
+    puts 
   end
   
 end 
